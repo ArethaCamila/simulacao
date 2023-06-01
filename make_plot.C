@@ -22,7 +22,7 @@ void make_plot(){
     auto grBSMe  = new TGraph("BSMprobabilitycmumu1e-22DUNEe.dat");
     //auto grBSMn  = new TGraph("BSMprobabilitycmumu1e-22DUNE.dat");
 
-    gr->GetXaxis()->SetRangeUser(0.25,10.0);
+    gr->GetXaxis()->SetRangeUser(0.30,10.0);
     gr->GetYaxis()->SetRangeUser(-4,3);
     //gr->GetYaxis()->SetRangeUser(0,0.2);
     gr->SetTitle("Neutrino spectra at DUNE FD;E (GeV);Flux");
